@@ -1,0 +1,25 @@
+name,kcal,protein,carbs,fat,price_per_kg,diet,status
+paneer,296,18.3,3.4,22.8,380,veg,approximate
+onion,40,1.1,9.3,0.1,35,veg,approximate
+tomato,18,0.9,3.9,0.2,30,veg,approximate
+rice,360,6.8,79,0.6,60,veg,approximate
+toor dal,343,22,63,1.5,150,veg,approximate
+moong dal,347,24,59,1.2,130,veg,approximate
+chickpeas,364,19,61,6,110,veg,approximate
+rajma,333,24,60,0.8,140,veg,approximate
+atta,340,12,72,1.7,45,veg,approximate
+potato,77,2,17,0.1,30,veg,approximate
+spinach,23,2.9,3.6,0.4,40,veg,approximate
+chicken,120,22,0,2.6,220,non-veg,approximate
+fish,97,17,0,2.6,250,non-veg,approximate
+egg,143,12.6,0.7,9.5,140,non-veg,approximate
+oil,884,0,0,100,150,veg,approximate
+ghee,900,0,0,100,600,veg,approximate
+curd,61,3.5,4.7,3.3,70,veg,approximate
+peas,81,5,14,0.4,80,veg,approximate
+cauliflower,25,1.9,5,0.3,40,veg,approximate
+poha,350,6.6,77,1,70,veg,approximate
+besan,387,22,58,6.7,90,veg,approximate
+capsicum,20,0.9,4.6,0.2,60,veg,approximate
+ginger-garlic paste,100,4,20,0.5,150,veg,approximate
+masala,300,10,50,10,400,veg,approximate

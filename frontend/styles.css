@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+html, body, [class*="css"] { font-family: 'Poppins', sans-serif; }
+.stApp { background: #fbf7ee; }
+#MainMenu, footer { visibility: hidden; }
+h1, h2, h3 { font-family: 'Playfair Display', serif !important; color: #1f4d36; }
+section[data-testid="stSidebar"] { background: linear-gradient(180deg, #1f4d36 0%, #2e7d4f 100%); }
+section[data-testid="stSidebar"] * { color: #fdfaf2 !important; }
+.brand { font-family: 'Playfair Display', serif; font-size: 1.7rem; font-weight: 700; margin-bottom: .2rem; }
+.hero { background: linear-gradient(135deg, #2e7d4f 0%, #6bb27f 60%, #f3e9c6 130%); color: #fff; border-radius: 24px;
+  padding: 2.4rem 2.2rem; box-shadow: 0 12px 30px rgba(31,77,54,.25); margin-bottom: 1.5rem; }
+.hero h1 { color: #fff !important; font-size: 2.4rem; margin: 0 0 .4rem 0; }
+.hero p { font-size: 1.05rem; opacity: .95; margin: 0; }
+.card { background: #fff; border-radius: 20px; padding: 1.1rem 1.3rem; box-shadow: 0 6px 18px rgba(0,0,0,.07);
+  border: 1px solid #efe7d2; transition: transform .2s ease, box-shadow .2s ease; margin-bottom: 1rem; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 26px rgba(31,77,54,.18); }
+.card .emoji { font-size: 2.2rem; }
+.card h4 { margin: .3rem 0; color: #1f4d36; font-weight: 600; }
+.card p { margin: 0; color: #5b6b60; font-size: .9rem; }
+.recipe-img { height: 90px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 2.6rem;
+  background: linear-gradient(135deg, #d9efd9, #f6ecc8); margin-bottom: .6rem; }
+.pill { display: inline-block; padding: .15rem .65rem; border-radius: 999px; font-size: .75rem; font-weight: 600; margin-right: .3rem; }
+.pill.veg { background: #dff3e1; color: #1d6b34; } .pill.nonveg { background: #fde3df; color: #a23a2c; }
+.pill.info { background: #f3ecd2; color: #6d5b1a; }
+.label { font-size: .75rem; color: #8a7a3a; font-style: italic; }
+.stButton > button { background: #2e7d4f; color: #fff; border: 0; border-radius: 999px; padding: .5rem 1.4rem; font-weight: 600;
+  transition: all .2s ease; box-shadow: 0 4px 10px rgba(46,125,79,.3); }
+.stButton > button:hover { background: #1f4d36; transform: translateY(-2px); color: #fff; }
+div[data-testid="stMetric"] { background: #fff; border-radius: 16px; padding: .8rem 1rem; box-shadow: 0 4px 12px rgba(0,0,0,.06); border: 1px solid #efe7d2; }
+.err { background: #fde8e5; border-left: 5px solid #c0392b; padding: .8rem 1rem; border-radius: 10px; color: #7b241c; }
+
+section[data-testid="stSidebar"] * { color: #fdfaf2 !important; }
+.hero, .hero * { color: #ffffff !important; }
+.stApp label, .stApp li, .stApp [data-testid="stMarkdownContainer"] p, .stApp [data-testid="stCaptionContainer"] { color: #1b2a21; }
